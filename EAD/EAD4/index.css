@@ -1,0 +1,21 @@
+
+
+form input[type=text], [type=email], [type=number],[type=password], select, textarea {
+	width: 35%;
+	border-radius: 10px;
+	font-size: medium;
+	height: 23px;
+	text-align: center;
+}
+
+fieldset {
+	background-color: lightgray;
+}
+
+form {
+	text-align: center;
+}
+
+:valid form {
+	border-color: green;
+}

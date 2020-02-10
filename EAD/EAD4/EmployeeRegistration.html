@@ -1,0 +1,55 @@
+<!-- Html page for employee registration -->
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+<link href="index.css" rel="stylesheet">
+</head>
+<body>
+	<div class="box">
+		<div class="employeeDetail">
+			<div class="boxTitle">
+				<h1>Employee Detail</h1>
+			</div>
+			<div class="boxContent">
+				<form action="EmployeeRegistration" method="post">
+					<fieldset id="nameField">
+						<input id="name" type="text" placeholder="Employee Name" name="name" required>
+					</fieldset>
+					<fieldset id="emailField">
+						<input id="email" type="email" placeholder="Employee Email" name="email" required>
+					</fieldset>
+					<fieldset id="mobileField">
+						<input id="mobile" type="number" placeholder="Mobile No." name="mobile" required>
+					</fieldset>
+					<fieldset id="passwordField">
+						<input id="password" type="password" placeholder="Password" name="password" required>
+					</fieldset>
+					<fieldset id="rePasswordField">
+						<input id="rePassword" type="password" placeholder="Confirm Password" name="rePassword" required>
+					</fieldset>
+					<fieldset>
+					
+						<strong>Gender :</strong><input type="radio" id="male" value="Male" name="gender" checked>
+						<label for="male">Male</label> <input type="radio" id="female"
+							value="Female" name="gender"> <label for="female">Female</label>
+					</fieldset>
+					<fieldset>
+						<input  list="organizationName" type="text" name="organization" required>
+						<datalist id="organizationName">
+							<option value="Metacube">
+							<option value="In TIme Tech">
+							<option value="Google">
+							<option value="Facebook">
+							<option value="Linkedin">
+						</datalist>
+					
+					</fieldset>
+					<input type="submit" name="submit">
+				</form>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
