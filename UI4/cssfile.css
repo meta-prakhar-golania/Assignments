@@ -1,0 +1,182 @@
+.background{
+    background-image: url("homebg.png") ;
+    background-size: 100% 100%;
+    color: honeydew;
+}
+
+.header{
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+.headerContent{
+    display: flex;
+    justify-content: space-between;
+}
+
+#font{
+    font-size: 40px;
+}
+
+#title{
+    font: x-large;
+    font-weight: bold;
+}
+
+nav a{
+    color: honeydew;
+    padding-left: 10px;
+    text-decoration: none;
+}
+
+li {
+    display: inline;
+  }
+
+#headIcon i{
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+
+button{
+    width: 120px;
+    padding: 15px 30px;
+    font-size: 13px;
+    border-radius: 4px;
+    text-align: center;
+    border: none;
+    color: white;
+}
+.orange{
+background-color: orangered;
+}
+.blue{
+    background-color: #3c4cc2;
+}
+
+#homeContent{
+    width: 300px;
+
+}
+
+#homeImage{
+   width: 400px;
+   height: 400px;
+   margin-bottom: 80px;
+}
+
+.centre{
+    text-align: center;
+    margin-top: 50px;
+}
+
+#textColor{
+    color: #3c4cc2;
+}
+
+#borderLeftImage{
+    margin-top: 100px;
+    transform: skewy(5deg);
+    width: 15%;
+    height: 15%;
+}
+
+#middleLeftImage{
+    margin-top: 50px;
+    transform: skewy(5deg);
+    width: 20%;
+    height: 20%;
+}
+
+#centreImage{
+    width: 25%;
+    height: 25%;
+}
+
+#middleRightImage{
+    margin-top: 50px;
+    transform: skewy(175deg);
+    width: 20%;
+    height: 20%;
+}
+
+#borderRightImage{
+    margin-top: 100px;
+    transform: skewy(175deg);
+    width: 15%;
+    height: 15%;
+}
+
+#screenshotImage{
+    margin-top: 50px;
+    width: 200px;
+    height: 400px;
+}
+
+.screenshotConten1{
+    margin-top: 100px;
+    margin-left: 250px;
+}
+
+.screenshotContent2{
+    margin-top: 80px;
+    width: 500px;
+}
+
+#downloadContent{
+    width: 300px;
+}
+
+#downloadImage{
+    width: 400px;
+    height: 200px;
+    margin-top: 100px;
+}
+
+.background2{
+    background-image: url("homebg.png") ;
+    color: honeydew;
+  }
+
+.footer{
+    background-color: #3c3c4d;
+    height: 150px;
+}
+
+.top{
+    margin-top: 100px;
+}
+
+.quotecolor i{
+    color:#3c4cc2;
+
+}
+
+#alignright{
+    float: right;
+}
+
+.paddingtop{
+    padding-top: 30px;
+}
+
+.paddingLeft{
+    padding-left: 40px;
+}
+
+#footerIcon i{
+	color: darkgray;
+    margin-left: 20px;
+}
+
+.horizontalLine{
+	margin-top: 25px;
+	border: 1px solid darkgray;
+}
+
+.centre1{
+    text-align: center;
+	margin-top: 35px;
+	color:darkgrey;
+}
